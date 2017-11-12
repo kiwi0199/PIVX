@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Rechts-Klick um Adresse oder Bezeichnung zu bearbeiten</translation>
+        <translation>Rechts-Klick, um Adresse oder Bezeichnung zu bearbeiten</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre PIVX-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie PIVX überweisen.</translation>
+        <translation>Dies sind ihre PIVX-Adressen zum Überweisen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie PIVX überweisen.</translation>
     </message>
     <message>
         <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre PIVX-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Dies sind ihre PIVX-Adressen zum Empfangen von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
+        <translation>Export fehlgeschlagen</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -232,15 +232,15 @@
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <translation>BIP38-Tool</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Verschlüsselung</translation>
+        <translation>&amp;BIP38-Verschlüsselung</translation>
     </message>
     <message>
         <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine PIVX Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <translation>Gib eine PIVX-Adresse ein, welche mit BIP38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf Verschlüsseln, um den privaten Schlüssel zu errechnen.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>PIVX Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <translation>PIVX-Adresse, mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -328,11 +328,11 @@
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Klicke "Schlüssel entschlüsseln" um den Schlüssel zu berechnen</translation>
+        <translation>Klicke "Schlüssel entschlüsseln", um den Schlüssel zu berechnen</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Die eingegebene Passphrase ist ungültig. </translation>
+        <translation>Die eingegebene Passphrase ist ungültig! </translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -340,27 +340,27 @@
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Die eingegebene Adresse ist falsch</translation>
+        <translation>Die eingegebene Adresse ist falsch!</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
+        <translation>Bitte die Adresse prüfen und erneut eingeben!</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel</translation>
+        <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel!</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet-Entsperrung wurde abgebrochen.</translation>
+        <translation>Die Wallet-Entsperrung wurde abgebrochen!</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar</translation>
+        <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar!</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Entschlüsselung fehlgeschlagen.</translation>
+        <translation>Entschlüsselung fehlgeschlagen!</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
@@ -384,7 +384,7 @@
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Fehler beim hinzufügen des Schlüssels zum Wallet</translation>
+        <translation>Fehler beim hinzufügen des Schlüssels zur Wallet!</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
@@ -611,7 +611,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und pivx: URIs)</translation>
+        <translation>Zahlung anfordern (QR-Code-Generierung und PIVX: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -619,7 +619,7 @@
     </message>
     <message>
         <source>Privacy Action for zPIV and Obfuscation</source>
-        <translation>Privatsphäre Aktion für zPIV und Verschleierung</translation>
+        <translation>Privatsphäre-Aktion für zPIV und Verschleierung</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -631,7 +631,7 @@
     </message>
     <message>
         <source>&amp;About PIVX Core</source>
-        <translation>Über.PIVX Core</translation>
+        <translation>Über PIVX Core</translation>
     </message>
     <message>
         <source>Show information about PIVX Core</source>
@@ -651,7 +651,7 @@
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 Hilfsprogramm</translation>
+        <translation>&amp;BIP38-Hilfsprogramm</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
@@ -659,19 +659,19 @@
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend Einstellungen</translation>
+        <translation>MultiSend-Einstellungen</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Öffne Wallet &amp;Einstellungsdatei </translation>
+        <translation>Öffne Wallet-&amp;Einstellungsdatei </translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Öffne &amp;Masternode Einstellungsdatei </translation>
+        <translation>Öffne &amp;Masternode-Einstellungsdatei </translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Öffne Masternode Einstellungsdatei</translation>
+        <translation>Öffne Masternode-Einstellungsdatei</translation>
     </message>
     <message>
         <source>Open a PIVX: URI or payment request</source>
@@ -679,15 +679,15 @@
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain Betrachter</translation>
+        <translation>&amp;Blockchain-Betrachter</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Blockchain Betrachter Fenster</translation>
+        <translation>Blockchain-Betrachter-Fenster</translation>
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Zeige die PIVX-Core Hilfe, um mögliche PIVX Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <translation>Zeige die PIVX-Core-Hilfe, um mögliche PIVX Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
